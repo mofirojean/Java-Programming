@@ -11,5 +11,13 @@ public class Main {
        Square s1 = new Square();
        s1.getArea();
        s1.getSide();
+
+    // creating a triangle method
+    Triangle t1 = new Triangle(2, 3, 4);
+
+    // call the method of the Triangle
+        t1.getArea();
+    // calls the method of the polygon
+        t1.getPerimeter(2, 3, 4);
     }
 }
